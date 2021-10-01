@@ -1,0 +1,12 @@
+platformName: Android
+platformVersion: '8.1.0'
+deviceName: 502b4777
+app: D:\A_Appium_Script\Library\app\app-1-release-8.1.8-51294-20210910-155902.apk
+appPackage: com.cliff
+appActivity: com.cliff.ui.splash.SplashActivity
+noReset: true             # # 'true': 不要重置;'false':每次重置
+unicodeKeyboard: true     # 使用unicode编码方式发送字符串
+resetKeyboard: true        # 将软键盘隐藏
+udid: 502b4777            # 真机
+ip: 127.0.0.1
+port: 4723
