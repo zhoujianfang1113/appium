@@ -24,7 +24,7 @@ class Confirm(Common):
                 sleep(0.5)
             self.getScreenShot('立即体验')
             self.find_element(*self.enterBtn).click()  # 点击[立即体验]按钮
-            self.Login_action('15627558993','123456')
+            self.Login_action('13850338329','123456')
 
 if __name__ == '__main__':
     driver=appium_desired()

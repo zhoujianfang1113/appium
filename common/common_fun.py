@@ -45,7 +45,6 @@ class Common(BaseView):             # Common 自定义
 # 判断是否有开屏广告
     def check_adv(self):
         try:
-
             self.driver.find_element(*self.adv_skipBtn)
         except NoSuchElementException:
             logging.info('没有广告')
